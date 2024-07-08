@@ -5,7 +5,7 @@ const tableBody = document.getElementById('tableBody');
 
 const getElementValue =(element)=>{
   return element.value;
-}
+};
 
 //on button click
 saveBtn.addEventListener("click", (event)=>{
@@ -24,9 +24,9 @@ itemId.innerHTML=itemValue;
 tableRow.appendChild(itemId);
 
 const toDoTimeTd =document.createElement('td');
-toDoTimeTd.innerHTML=toDoTimeTdValue;
+toDoTimeTd.innerHTML=todoTimeValue;
 tableRow.appendChild(toDoTimeTd);
 
 tableBody.appendChild(tableRow);
 
-})
+});
